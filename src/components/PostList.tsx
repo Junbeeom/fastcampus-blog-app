@@ -13,7 +13,7 @@ export default function PostList({ hasNavigation = true }: PostListProps) {
     <>
       {hasNavigation && (
         <div className="post__navigation">
-          <div
+          <div 
             role="presentation"
             onClick={() => setActiveTab("all")}
             className={activeTab === "all" ? "post__navigation--active" : ""}
